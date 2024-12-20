@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Sevillana&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-head{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+}
+
+.top-head .top-configuration{
+    width: 95%;
+    max-width: 1440px;
+    height: 40px;
+    display: flex;
+    color: bisque;
+    text-transform: capitalize;
+    gap: 5px;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+.top-head .gap{
+    width: 150px;
+    color: bisque;
+    justify-content: center;
+    text-transform: capitalize;    
+}
+
+.nav-bar{
+    width: 95%;
+    height: 38px;
+    padding-top: 88px;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    gap: 100px;
+    
+}
+
+.nav-bar .options{
+    display: flex;
+    gap: 50px; 
+    justify-items: center;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    
+}
+.nav-bar .options .bald{
+    font-weight: bolder;
+    padding-right: 150px;
+    font-size: large;
+}
+
+.nav-bar .otheroptions{
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .otheroptions .search-bar{
+    background-color: beige;
+    height: 38px;
+
+
+}
+
+.nav-bar .otheroptions .searchbarinput{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.nav-bar .otheroptions .favandcart{
+    word-spacing: 20px;
+}
+
+
+.gapline{
+    margin-top: 30px;
+    width: 100%;
+    height: 0px;
+    border: 0.5px solid rgb(223, 213, 213);
+    }
+
+.container{
+        width: 892px;
+        height: 344px;
+        margin: 70px ;
+        margin-top: 0%;
+        display: flex;
+        padding-top: 0;
+
+}
+
+.container .menu{
+        margin-top: 30px;
+        text-transform: capitalize;
+        
+}
+
+.container .menu .products{
+        margin: 5px 16px 0;
+        text-align: center left;
+        
+}
+
+.container .verticalborder{
+        border: 0.5px solid black;
+        height: 384px;
+        
+}
+
+
+.container .banner{
+        width: 892px;
+        height: 344px;
+        margin-left: 30px;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        display: flex;
+        background-image: url(./images/7215f42e5883a64157f0aa3a4d1a866a.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: 80%;
+}
+
+.container .banner .voucher-info .apple{
+    display: flex;
+    font-size: 2.5rem;
+    gap: 24px;
+    margin-left: 64px;
+    text-align: center;
+}
+
+.container .banner .voucher-info .apple .iphone{
+    font-size: small;
+    font-family: "Poppins", serif;
+    text-align: center;
+    margin-top: 2.5%;
+    padding-bottom: 0px;
+}
+
+.container .banner .voucher-info .up10{
+    font-size: 48px;
+    font-family: "Poppins", serif;
+    margin: 0 64px 0;
+    padding-top: 0px;
+}
+
+.container .banner .voucher-info .shop{
+    margin: 20px 64px 0;
+    font-family: "Poppins", serif;
+    text-decoration: underline;
+}
+
+.today{
+    background-color: aqua;
+    width: 92%;
+    height: 493px;
+    margin: 150px 85px 0;
+    display: flex;
+}
+
+.today .countdown{
+    width: 1170px;
+    height: 103px;
+    display: flex;
+    gap: 10px;
+    color: rgb(255, 77, 0);
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    text-align: left;
+}
+.today .countdown .red{
+    width: 20px;
+    height: 40px;
+    background-color: rgb(255, 77, 0);
+}
+.today .countdown .red .today_s{
+    margin: 0 40px 0;
+    padding-top: 10px;
+
+}
+
+.today .countdown .flash{
+    color: black;
+    text-transform: capitalize;
+    font-family: "Poppins", serif;
+    font-size: 36px;
+}
+
+.today .countdown .arrows{
+    display: flex;
+    color: black;
+    align-self: flex-end;
+    padding-left: 40%;
+    gap: 10px;
+}
+
+.countdown2 {
+    display: flex;
+    text-align: center;
+    background-color: transparent;
+    padding: 50px 40px;
+    color: black;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.time div {
+    font-size: 0.8rem;
+    background-color: transparent;
+}
+
+.label {
+    font-size: 10px;
+    color: black;
+}

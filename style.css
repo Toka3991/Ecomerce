@@ -165,7 +165,7 @@ body{
 
 .today{
     width: 92%;
-    height: 493px;
+    height: 103px;
     margin: 150px 85px 0;
     display: flex;
 }
@@ -229,3 +229,64 @@ body{
     font-size: 10px;
     color: black;
 }
+
+.shopping{
+    width: 1100px;
+    height: 200px;
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+    margin: 50px 85px 0;
+
+}
+.shopping .box {
+    width: 200px;
+    height: 200px;
+  }
+
+ .shopping .box .frst {
+    color: orangered;
+    padding-right: 10px;
+  }
+
+.shopping .box .scnd {
+    text-decoration: line-through rgb(131, 127, 125);
+  }
+
+.shopping .box .rating{
+    color: rgb(255,181,70);
+  }
+
+  .shopping .box .productimg{
+    background-color: rgb(241, 236, 230);
+  }
+ .shopping .box .productimg2{
+    height: 200px;
+    width: 200px;
+    background-image: url(./images/keyboard.png);
+    background-size: contain;
+    background-color: rgb(241, 236, 230);
+ }
+  .shopping .box .addcart{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 21px;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .viewall{
+    width: 134px;
+    height: 26px;
+    margin-top: 219px;
+    margin-left: 463px;
+    padding: 16px 48px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 68, 68);
+    text-align: center;
+  }

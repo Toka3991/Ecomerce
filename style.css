@@ -1,292 +1,403 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Sevillana&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Sevillana&display=swap");
 
-
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.top-head{
-    width: 100%;
-    height: 40px;
-    background-color: black;
-    display: flex;
+.top-head {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
 }
 
-.top-head .top-configuration{
-    width: 95%;
-    max-width: 1440px;
-    height: 40px;
-    display: flex;
-    color: bisque;
-    text-transform: capitalize;
-    gap: 5px;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    
+.top-head .top-configuration {
+  width: 95%;
+  max-width: 1440px;
+  height: 40px;
+  display: flex;
+  color: bisque;
+  text-transform: capitalize;
+  gap: 5px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
 }
-.top-head .gap{
-    width: 150px;
-    color: bisque;
-    justify-content: center;
-    text-transform: capitalize;    
-}
-
-.nav-bar{
-    width: 95%;
-    height: 38px;
-    padding-top: 88px;
-    display: flex;
-    justify-content: flex-end;
-    justify-items: center;
-    gap: 100px;
-    
+.top-head .gap {
+  width: 150px;
+  color: bisque;
+  justify-content: center;
+  text-transform: capitalize;
 }
 
-.nav-bar .options{
-    display: flex;
-    gap: 50px; 
-    justify-items: center;
-    text-transform: capitalize;
-    font-family: "Poppins", sans-serif;
-    
-}
-.nav-bar .options .bald{
-    font-weight: bolder;
-    padding-right: 150px;
-    font-size: large;
+.nav-bar {
+  width: 95%;
+  height: 38px;
+  padding-top: 88px;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  gap: 100px;
 }
 
-.nav-bar .otheroptions{
-    display: flex;
-    gap: 30px;
-    display: flex;
-    align-items: center;
+.nav-bar .options {
+  display: flex;
+  gap: 50px;
+  justify-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+.nav-bar .options .bald {
+  font-weight: bolder;
+  padding-right: 150px;
+  font-size: large;
 }
 
-.nav-bar .otheroptions .search-bar{
-    background-color: beige;
-    height: 38px;
-
-
+.nav-bar .otheroptions {
+  display: flex;
+  gap: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.nav-bar .otheroptions .searchbarinput{
-    border: none;
-    background-color: transparent;
-    text-align: center;
-    margin-top: 5%;
+.nav-bar .otheroptions .search-bar {
+  background-color: beige;
+  height: 38px;
 }
 
-.nav-bar .otheroptions .favandcart{
-    word-spacing: 20px;
+.nav-bar .otheroptions .searchbarinput {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 5%;
 }
 
-
-.gapline{
-    margin-top: 30px;
-    width: 100%;
-    height: 0px;
-    border: 0.5px solid rgb(223, 213, 213);
-    }
-
-.container{
-        width: 892px;
-        height: 344px;
-        margin: 70px ;
-        margin-top: 0%;
-        display: flex;
-        padding-top: 0;
-
+.nav-bar .otheroptions .favandcart {
+  word-spacing: 20px;
 }
 
-.container .menu{
-        margin-top: 30px;
-        text-transform: capitalize;
-        
+.gapline {
+  margin-top: 30px;
+  width: 100%;
+  height: 0px;
+  border: 0.5px solid rgb(223, 213, 213);
 }
 
-.container .menu .products{
-        margin: 5px 16px 0;
-        text-align: center left;
-        
+.container {
+  width: 892px;
+  height: 344px;
+  margin: 70px;
+  margin-top: 0%;
+  display: flex;
+  padding-top: 0;
 }
 
-.container .verticalborder{
-        border: 0.5px solid black;
-        height: 384px;
-        
+.container .menu {
+  margin-top: 30px;
+  text-transform: capitalize;
 }
 
-
-.container .banner{
-        width: 892px;
-        height: 344px;
-        margin-left: 30px;
-        border: 1px solid black;
-        background-color: black;
-        color: white;
-        display: flex;
-        background-image: url(./images/7215f42e5883a64157f0aa3a4d1a866a.png);
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position: 80%;
+.container .menu .products {
+  margin: 5px 16px 0;
+  text-align: center left;
 }
 
-.container .banner .voucher-info .apple{
-    display: flex;
-    font-size: 2.5rem;
-    gap: 24px;
-    margin-left: 64px;
-    text-align: center;
+.container .verticalborder {
+  border: 0.5px solid black;
+  height: 384px;
 }
 
-.container .banner .voucher-info .apple .iphone{
-    font-size: small;
-    font-family: "Poppins", serif;
-    text-align: center;
-    margin-top: 2.5%;
-    padding-bottom: 0px;
+.container .banner {
+  width: 892px;
+  height: 344px;
+  margin-left: 30px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  display: flex;
+  background-image: url(./images/7215f42e5883a64157f0aa3a4d1a866a.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 80%;
 }
 
-.container .banner .voucher-info .up10{
-    font-size: 48px;
-    font-family: "Poppins", serif;
-    margin: 0 64px 0;
-    padding-top: 0px;
+.container .banner .voucher-info .apple {
+  display: flex;
+  font-size: 2.5rem;
+  gap: 24px;
+  margin-left: 64px;
+  text-align: center;
 }
 
-.container .banner .voucher-info .shop{
-    margin: 20px 64px 0;
-    font-family: "Poppins", serif;
-    text-decoration: underline;
+.container .banner .voucher-info .apple .iphone {
+  font-size: small;
+  font-family: "Poppins", serif;
+  text-align: center;
+  margin-top: 2.5%;
+  padding-bottom: 0px;
 }
 
-.today{
-    width: 92%;
-    height: 103px;
-    margin: 150px 85px 0;
-    display: flex;
+.container .banner .voucher-info .up10 {
+  font-size: 48px;
+  font-family: "Poppins", serif;
+  margin: 0 64px 0;
+  padding-top: 0px;
 }
 
-.today .countdown{
-    width: 1170px;
-    height: 103px;
-    display: flex;
-    gap: 10px;
-    color: rgb(255, 77, 0);
-    text-transform: capitalize;
-    font-family: "Poppins", serif;
-    text-align: left;
-}
-.today .countdown .red{
-    width: 20px;
-    height: 40px;
-    background-color: rgb(255, 77, 0);
-}
-.today .countdown .red .today_s{
-    margin: 0 40px 0;
-    padding-top: 10px;
-
+.container .banner .voucher-info .shop {
+  margin: 20px 64px 0;
+  font-family: "Poppins", serif;
+  text-decoration: underline;
 }
 
-.today .countdown .flash{
-    color: black;
-    text-transform: capitalize;
-    font-family: "Poppins", serif;
-    font-size: 36px;
+.today {
+  width: 92%;
+  height: 103px;
+  margin: 150px 85px 0;
+  display: flex;
 }
 
-.today .countdown .arrows{
-    display: flex;
-    color: black;
-    align-self: flex-end;
-    padding-left: 25%;
-    gap: 10px;
+.today .countdown {
+  width: 1170px;
+  height: 103px;
+  display: flex;
+  gap: 10px;
+  color: rgb(255, 77, 0);
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  text-align: left;
+}
+.today .countdown .red {
+  width: 20px;
+  height: 40px;
+  background-color: rgb(255, 77, 0);
+}
+.today .countdown .red .today_s {
+  margin: 0 40px 0;
+  padding-top: 10px;
+}
+
+.today .countdown .flash {
+  color: black;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  font-size: 36px;
+}
+
+.today .countdown .arrows {
+  display: flex;
+  color: black;
+  align-self: flex-end;
+  padding-left: 25%;
+  gap: 10px;
 }
 
 .countdown2 {
-    display: flex;
-    text-align: center;
-    background-color: transparent;
-    padding: 50px 40px;
-    color: black;
+  display: flex;
+  text-align: center;
+  background-color: transparent;
+  padding: 50px 40px;
+  color: black;
 }
 
 .time {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .time div {
-    font-size: 0.8rem;
-    background-color: transparent;
+  font-size: 0.8rem;
+  background-color: transparent;
 }
 
 .label {
-    font-size: 10px;
-    color: black;
+  font-size: 10px;
+  color: black;
 }
 
-.shopping{
-    width: 1100px;
-    height: 200px;
-    padding-top: 50px;
-    display: flex;
-    gap: 50px;
-    margin: 50px 85px 0;
-
+.shopping {
+  width: 1100px;
+  height: 200px;
+  padding-top: 50px;
+  display: flex;
+  gap: 50px;
+  margin: 50px 85px 0;
 }
 .shopping .box {
-    width: 200px;
-    height: 200px;
-  }
+  width: 200px;
+  height: 200px;
+}
 
- .shopping .box .frst {
-    color: orangered;
-    padding-right: 10px;
-  }
+.shopping .box .frst {
+  color: orangered;
+  padding-right: 10px;
+}
 
 .shopping .box .scnd {
-    text-decoration: line-through rgb(131, 127, 125);
-  }
+  text-decoration: line-through rgb(131, 127, 125);
+}
 
-.shopping .box .rating{
-    color: rgb(255,181,70);
-  }
+.shopping .box .rating {
+  color: rgb(255, 181, 70);
+}
 
-  .shopping .box .productimg{
-    background-color: rgb(241, 236, 230);
-  }
- .shopping .box .productimg2{
-    height: 200px;
-    width: 200px;
-    background-image: url(./images/keyboard.png);
-    background-size: contain;
-    background-color: rgb(241, 236, 230);
- }
-  .shopping .box .addcart{
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 21px;
-    margin: 0;
-    padding-top: 20px;
-  }
+.shopping .box .productimg {
+  background-color: rgb(241, 236, 230);
+}
+.shopping .box .productimg2 {
+  height: 200px;
+  width: 200px;
+  background-image: url(./images/keyboard.png);
+  background-size: contain;
+  background-color: rgb(241, 236, 230);
+}
+.shopping .box .addcart {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 21px;
+  margin: 0;
+  padding-top: 20px;
+}
 
-  .viewall{
-    width: 134px;
-    height: 26px;
-    margin-top: 219px;
-    margin-left: 463px;
-    padding: 16px 48px;
-    gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(219, 68, 68);
-    text-align: center;
-  }
+.viewall {
+  width: 154px;
+  height: 26px;
+  margin-top: 219px;
+  margin-left: 463px;
+  padding: 16px 38px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(219, 68, 68);
+  text-align: center;
+  font-family: poppins;
+  font-size: 1.1rem;
+}
+
+.horizontal-line {
+  height: 2px;
+  background-color: rgb(245, 245, 245);
+  width: 90%;
+  margin: 20px 0 200px 70px;
+  align-self: center;
+}
+
+.categories {
+  width: 1170px;
+  height: 103px;
+  display: flex;
+  gap: 10px;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  text-align: left;
+  margin: 150px 85px 0;
+}
+
+.categories .red {
+  width: 20px;
+  height: 40px;
+  background-color: rgb(255, 77, 0);
+}
+
+.categories .red .today_s {
+  margin: 0 40px 0;
+  padding-top: 10px;
+  color: rgb(255, 77, 0);
+  text-transform: capitalize;
+}
+
+.categories .flash {
+  color: black;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  font-size: 36px;
+}
+
+.categories .arrows {
+  display: flex;
+  color: black;
+  align-self: flex-end;
+  padding-left: 45%;
+  gap: 10px;
+}
+
+.categoryIcons {
+  width: 82%;
+  display: flex;
+  margin: 50px 85px 0;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.categoryIcons .phone {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.categoryIcons .phone:hover {
+  background-color: brown;
+}
+.categoryIcons .computer {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.categoryIcons .computer:hover {
+  background-color: brown;
+}
+.categoryIcons .smartwatch {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.categoryIcons .smartwatch:hover {
+  background-color: brown;
+}
+
+.categoryIcons .camera {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+
+.categoryIcons .camera:hover {
+  background-color: brown;
+}
+
+.categoryIcons .headphones {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.categoryIcons .headphones:hover {
+  background-color: brown;
+}
+.categoryIcons .gaming {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.categoryIcons .gaming:hover {
+  background-color: brown;
+}

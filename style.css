@@ -282,7 +282,7 @@ body {
   height: 2px;
   background-color: rgb(245, 245, 245);
   width: 90%;
-  margin: 20px 0 200px 70px;
+  margin: 50px 0 100px 70px;
   align-self: center;
 }
 
@@ -402,3 +402,86 @@ body {
 .categoryIcons .gaming:hover {
   background-color: brown;
 }
+
+.categories .red .this_month {
+  margin: 0 30px 0;
+  padding-top: 10px;
+  color: rgb(255, 77, 0);
+  text-transform: capitalize;
+  font-size: small;
+  text-decoration: solid;
+}
+.quantity {
+  color: grey;
+}
+
+.banner2 {
+    margin-top: 150px;
+  width: 1000px;
+  height: 444px;
+  margin-left: 90px;
+  border: 1px  black;
+  background-color: black ;
+  color: white;
+  display: flex;
+  background-image: url(./images/speaker.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 99%;
+}
+
+.banner2 .apple {
+    display: flex;
+    gap: 24px;
+    margin-left: 64px;
+    text-align: center;
+  }
+  
+  .banner2 .apple .green_button{
+    margin-top: 50px;
+    border: 0;
+    color: #00FF66;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .banner2 .music{
+    font-size: 2.5rem;
+    margin: -10px -10px -10px 64px ;
+    text-align: left;
+    text-decoration: solid;
+    font-family: "Poppins", serif;
+    padding: 0%;
+  }
+.banner2 .buynow{
+    margin: -10px -10px -10px 64px ;
+    width: 171px;
+    height: 56px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #00FF66;
+    cursor: pointer;
+}
+.banner2 .counting{
+    display: flex;
+  text-align: center;
+  background-color: transparent;
+  padding: 50px 40px;
+  color: black;
+}
+.banner2 .counting .time {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .banner2 .time div {
+    /* height: 80px;
+    width: 60px; */
+    font-size: 0.8rem;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+  }

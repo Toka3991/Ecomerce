@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&family=Sevillana&display=swap");
 
-body {
-  margin: 0px;
-  padding: 0px;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box;
 }
 
 .top-head {
@@ -11,6 +13,8 @@ body {
   background-color: black;
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .top-head .top-configuration {
@@ -39,6 +43,8 @@ body {
   justify-content: flex-end;
   justify-items: center;
   gap: 100px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-bar .options {
@@ -86,11 +92,13 @@ body {
 
 .container {
   width: 892px;
-  height: 344px;
+  height: 444px;
   margin: 70px;
   margin-top: 0%;
   display: flex;
   padding-top: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container .menu {
@@ -227,6 +235,8 @@ body {
   display: flex;
   gap: 50px;
   margin: 50px 85px 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .shopping .box {
   width: 200px;
@@ -298,6 +308,8 @@ body {
   font-family: "Poppins", serif;
   text-align: left;
   margin: 150px 85px 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .categories .red {
@@ -432,6 +444,8 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-position: 99%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .banner2 .apple {
@@ -488,7 +502,10 @@ body {
   }
 
   .shopping {
+    height: 400px;
     margin-bottom: 150px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   .shopping .box .productimg3{
     height: 170px;
@@ -505,6 +522,8 @@ body {
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
     gap: 10px; 
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   .arrival .item1 {
@@ -645,6 +664,22 @@ body {
     text-align: center;
   }
   
+/* Global Reset */
+
+
+/* Default Styles (Mobile-First Approach) */
+.container,
+.nav-bar,
+.top-head,
+.arrival,
+.shopping,
+.categories,
+.banner2 {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* 🖥️ Large Screens (TVs, 1440px and above) */
 @media (min-width: 1440px) {
   .container, .nav-bar, .top-head, .arrival, .shopping, .categories, .banner2 {
     max-width: 1440px;
@@ -663,6 +698,7 @@ body {
   }
 }
 
+/* 💻 Desktops (1024px - 1439px) */
 @media (min-width: 1024px) and (max-width: 1439px) {
   .nav-bar {
     gap: 50px;
@@ -680,6 +716,7 @@ body {
   }
 }
 
+/* 📱 Tablets (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   .nav-bar {
     flex-direction: column;
@@ -718,6 +755,7 @@ body {
   }
 }
 
+/* 📱 Mobile Phones (up to 767px) */
 @media (max-width: 767px) {
   .nav-bar {
     flex-direction: column;
